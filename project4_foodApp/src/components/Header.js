@@ -11,6 +11,7 @@ export const Header = () => {
                 <img id='logo' src={LOGO_URL}></img>    
                 <div className='links'>
                     <ul>
+                        <li>status :</li>
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to='/about'>About</Link></li>
                         <li><Link to='/contact'>Contact Us</Link></li>
