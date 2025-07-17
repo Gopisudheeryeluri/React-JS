@@ -1,6 +1,6 @@
 import {CDN_URL} from '../utils/constants';
 
-const RestaurentContainer = (data) => {
+const RestaurentCard = (data) => {
     // console.log(data);
     const { restaurentData } = data;
     console.log("restaurentData",restaurentData);
@@ -17,4 +17,4 @@ const RestaurentContainer = (data) => {
     )
 }
 
-export default RestaurentContainer;
+export default RestaurentCard;
